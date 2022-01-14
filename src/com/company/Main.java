@@ -43,7 +43,8 @@ public class Main {
 //        wall.setWidth(15);
 //        System.out.println(wall1.getArea());
 
-
+        var point = new Point(1,1);
+        System.out.println(point.distance(2,2));
     }
 
 }
