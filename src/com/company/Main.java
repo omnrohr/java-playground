@@ -37,7 +37,11 @@ public class Main {
 //        deluxe.setName("Deluxe Hamburger");
 //        deluxe.getBill();
 
-
+//        var wall = new Wall();
+//        var wall1 = new Wall();
+//        wall.setHeight(10);
+//        wall.setWidth(15);
+//        System.out.println(wall1.getArea());
 
 
     }
