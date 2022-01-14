@@ -9,7 +9,7 @@ public class Main {
 
         MyMath forMathCalculations = new MyMath();
 //        System.out.println(forMathCalculations.getLargestPrime(217));
-//        forMathCalculations.perfectNumber(28);
+        forMathCalculations.calculateAvAndSumArray(5);
 
 
         MyConverters converters = new MyConverters();
@@ -43,8 +43,15 @@ public class Main {
 //        wall.setWidth(15);
 //        System.out.println(wall1.getArea());
 
-        var point = new Point(1,1);
-        System.out.println(point.distance(2,2));
+//        var point = new Point(1,1);
+//        System.out.println(point.distance(2,2));
+//        var mobile = new Mobile("Samsung", 2,false);
+//        System.out.println(mobile.details());
+//        var samsung1 = new Smart(123, "model n 5",new Camera("zerex", 5));
+//        System.out.println(samsung1.details());
+
+
+
     }
 
 }

@@ -106,7 +106,14 @@ public class MyMath {
             if (number%temp==0)break;
             temp--;
         }return temp;
-
     }
-
+    public void calculateAvAndSumArray(int arrayLength){
+        int[] userArray = PlayArrays.createInputIntArray(arrayLength);
+        int sum=0;
+        for (int i =0; i < userArray.length; i++){
+            sum += userArray[i];
+        }
+        System.out.println("Average --> "+ sum/userArray.length);
+        System.out.println("Sum --> "+ sum);
+    }
 }
