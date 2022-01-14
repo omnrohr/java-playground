@@ -1,15 +1,18 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
+
 
         PlayClass sumall = new PlayClass();
 //        System.out.println(sumall.isEqualThreeDecimal(3.174, 3.175));
 
         MyMath forMathCalculations = new MyMath();
 //        System.out.println(forMathCalculations.getLargestPrime(217));
-        forMathCalculations.calculateAvAndSumArray(5);
+//        forMathCalculations.calculateAvAndSumArray(5);
 
 
         MyConverters converters = new MyConverters();
@@ -18,6 +21,9 @@ public class Main {
         PlayClass forPlaying = new PlayClass();
 //        System.out.println(forPlaying.haseSameLastDigit(9,22,71));
 //        forPlaying.printSquareStar(5);
+
+        PlayArrays playArrays = new PlayArrays();
+//        playArrays.checkArrayReferences();
 
 //        Hamburger basic = new Hamburger("Whole Wheat","Beef",10.00);
 //        basic.addOn1("Cheese",1.00);
@@ -50,7 +56,22 @@ public class Main {
 //        var samsung1 = new Smart(123, "model n 5",new Camera("zerex", 5));
 //        System.out.println(samsung1.details());
 
+        Main createarray = new Main();
+//        createarray.createArrayAndSortIt();
 
+//        int[] myArray = {10,20,1,5,50};
+//        int[] myNewArray = Arrays.copyOf(myArray,myArray.length);
+//        PlayArrays playArrays = new PlayArrays();
+//        System.out.println(playArrays.sortArrayMyOwnApply(myArray));
+
+
+
+    }
+    public void createArrayAndSortIt(){
+        int[] myArray = PlayArrays.createInputIntArray(10);
+        System.out.println(Arrays.toString(myArray));
+        Arrays.sort(myArray);
+        System.out.println(Arrays.toString(myArray));
 
     }
 
